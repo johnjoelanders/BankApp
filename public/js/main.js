@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $(".registerclick").click(function(){
+        $("#signup").hide();
+        $("#register").show();
+    });
+    $(".signupclick").click(function(){
+        $("#register").hide();
+        $("#signup").show();
+    });
+});

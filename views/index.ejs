@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bank APP</title>
+    <link href="css/min/bootstrap.min.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
+    <script type="text/javascript" src="js/min/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+<body>
+
+   <div class="container">
+
+     <form id="signup" class="form-signin">
+       <h2 class="form-signin-heading">Sign In</h2>
+       <label for="inputEmail" class="sr-only">Email address</label>
+       <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+       <label for="inputPassword" class="sr-only">Password</label>
+       <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+       <p class="message">
+        Not registered?
+        <a href="#" class="registerclick">Create an account</a>
+      </p>
+     </form>
+
+     <form id="register" class="form-signin register-form">
+       <h2 class="form-signin-heading">Create Account</h2>
+       <label for="inputFirstName" class="sr-only">FirstName:</label>
+       <input type="text" id="inputFirstName" class="form-control" placeholder="First name" required autofocus>
+       <label for="inputLastName" class="sr-only">LastName:</label>
+       <input type="text" id="inputLastName" class="form-control" placeholder="Last name" required>
+       <label for="inputEmail" class="sr-only">Email address</label>
+       <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+       <label for="inputPassword" class="sr-only">Password</label>
+       <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+       <button class="btn btn-lg btn-primary btn-block" type="submit">Create Account</button>
+       <p class="message">
+         Already registered?
+         <a href="#" class="signupclick">Sign In</a>
+       </p>
+     </form>
+
+   </div>
+ </body>
+</html>
